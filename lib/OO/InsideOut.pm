@@ -11,7 +11,7 @@ use Carp qw(croak);
 use Class::ISA ();
 use Scalar::Util 1.09 qw(weaken refaddr);
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our @EXPORT    = qw(); 
 our @EXPORT_OK = qw(Dumper id register);
 
@@ -416,12 +416,8 @@ André "Rivotti" Casimiro, C<< <rivotti at cpan.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to 
-C<bug-oo-insideout at rt.cpan.org>, or through
-the web interface at 
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=OO-InsideOut>.  
-I will be notified, and then you'll automatically be notified of progress on 
-your bug as I make changes.
+Please report any bugs or feature requests through the issue tracker
+at L<https://github.com/ARivottiC/OO-InsideOut/issues>.
 
 =head1 SUPPORT
 
@@ -434,9 +430,9 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * GitHub 
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=OO-InsideOut>
+L<https://github.com/ARivottiC/OO-InsideOut>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
