@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               OO-InsideOut
-version:            0.02
+version:            0.03
 abstract:           Minimal support for Inside-Out Classes
 author:
     - André Rivotti Casimiro <rivotti@cpan.org>
